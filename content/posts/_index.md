@@ -12,7 +12,7 @@ cascade:
 Simple, yet powerful. Learn how to use Congo and its features.
 {{< /lead >}}
 
-![Screenshots of Congo on an iPhone, iPad and MacBook](screenshot.png)
+![A Random good dog](https://placedog.net/1000/500?random)
 
 
 ---
