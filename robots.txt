@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cianmce.github.io/sitemap.xml
