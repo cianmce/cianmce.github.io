@@ -1,3 +1,462 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = "https://cianmce.github.io"
+defaultContentLanguage = "en"
+enableEmoji = true
+enableGitInfo = true
+enableRobotsTXT = true
+theme = "LoveIt"
+title = "Cian McElhinney"
+
+[Permalinks]
+posts = ":filename"
+
+[author]
+email = ""
+link = ""
+name = "xxxx"
+
+[languages.en]
+copyright = "This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License."
+googleAnalytics = ""
+hasCJKLanguage = false
+languageCode = "en"
+languageName = "English"
+paginate = 12
+weight = 1
+
+[[languages.en.menu.main]]
+identifier = "posts"
+name = "Posts"
+post = ""
+pre = ""
+title = ""
+url = "/posts/"
+weight = 1
+
+[[languages.en.menu.main]]
+identifier = "tags"
+name = "Tags"
+post = ""
+pre = ""
+title = ""
+url = "/tags/"
+weight = 2
+
+[[languages.en.menu.main]]
+identifier = "categories"
+name = "Categories"
+post = ""
+pre = ""
+title = ""
+url = "/categories/"
+weight = 3
+
+[[languages.en.menu.main]]
+identifier = "documentation"
+name = "Docs"
+post = ""
+pre = ""
+title = ""
+url = "/categories/documentation/"
+weight = 4
+
+[[languages.en.menu.main]]
+identifier = "about"
+name = "About"
+post = ""
+pre = ""
+title = ""
+url = "/about/"
+weight = 5
+
+[[languages.en.menu.main]]
+identifier = "github"
+name = ""
+post = ""
+pre = "<i class='fab fa-github fa-fw'></i>"
+title = "GitHub"
+url = "https://github.com/cianmce"
+weight = 6
+
+  [languages.en.params]
+  description = "Cian McElhinney"
+  keywords = [ "Cian", "McElhinney" ]
+
+    [languages.en.params.app]
+    iconColor = "#5bbad5"
+    noFavicon = false
+    svgFavicon = ""
+    themeColor = "#ffffff"
+    tileColor = "#da532c"
+    title = "CianCode"
+
+    [languages.en.params.home]
+    rss = 10
+
+      [languages.en.params.home.posts]
+      enable = true
+      paginate = 6
+
+      [languages.en.params.home.profile]
+      avatarURL = "/images/avatar.png"
+      disclaimer = ""
+      enable = true
+      gravatarEmail = ""
+      social = true
+      subtitle = "My Site"
+      title = ""
+      typeit = true
+
+    [languages.en.params.search]
+    absoluteURL = false
+    contentLength = 4_000
+    enable = true
+    highlightTag = "em"
+    maxResultLength = 10
+    placeholder = ""
+    snippetLength = 30
+    type = "algolia"
+
+      [languages.en.params.search.algolia]
+      appID = "PASDMWALPK"
+      index = "index.en"
+      searchKey = "b42948e51daaa93df92381c8e2ac0f93"
+
+    [languages.en.params.social]
+    Angellist = ""
+    Bandcamp = ""
+    Behance = ""
+    Bilibili = ""
+    Bitbucket = ""
+    Codepen = ""
+    Deviantart = ""
+    Devto = ""
+    Douban = ""
+    Dribbble = ""
+    Email = "hello@ciancode.com"
+    Facebook = ""
+    Fivehundredpx = ""
+    Flickr = ""
+    Foursquare = ""
+    FreeCodeCamp = ""
+    GitHub = "https://github.com/cianmce"
+    Gitea = ""
+    Gitlab = ""
+    Goodreads = ""
+    Googlescholar = ""
+    Hackernews = ""
+    Instagram = ""
+    Jsfiddle = ""
+    Keybase = ""
+    Kickstarter = ""
+    Lastfm = ""
+    Linkedin = ""
+    Matrix = ""
+    Medium = ""
+    Mix = ""
+    Odnoklassniki = ""
+    Patreon = ""
+    Paypal = ""
+    Pinterest = ""
+    Quora = ""
+    RSS = true
+    Reddit = ""
+    Researchgate = ""
+    Skype = ""
+    Slidershare = ""
+    Snapchat = ""
+    Soundcloud = ""
+    Spotify = ""
+    Stackoverflow = ""
+    Steam = ""
+    Strava = ""
+    Telegram = ""
+    Thingiverse = ""
+    Tumblr = ""
+    Twitch = ""
+    Twitter = ""
+    VK = ""
+    Vine = ""
+    Weibo = ""
+    Whatsapp = ""
+    Wordpress = ""
+    XMPP = ""
+    Xing = ""
+    Youtubechannel = ""
+    Youtubecustom = ""
+    Youtubelegacy = ""
+    Zhihu = ""
+
+      [languages.en.params.social.Mastodon]
+      id = "@"
+      prefix = "https://mastodon.technology/"
+
+[markup.goldmark.extensions]
+definitionList = true
+footnote = true
+linkify = true
+strikethrough = true
+table = true
+taskList = true
+typographer = true
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[markup.highlight]
+codeFences = true
+guessSyntax = true
+lineNos = true
+lineNumbersInTable = true
+noClasses = false
+
+[markup.tableOfContents]
+endLevel = 6
+startLevel = 2
+
+[mediaTypes."text/plain"]
+suffixes = [ "md" ]
+
+[outputFormats.MarkDown]
+isHTML = false
+isPlainText = true
+mediaType = "text/plain"
+
+[outputs]
+home = [ "HTML", "RSS", "JSON" ]
+page = [ "HTML", "MarkDown" ]
+section = [ "HTML", "RSS" ]
+taxonomy = [ "HTML", "RSS" ]
+taxonomyTerm = [ "HTML" ]
+
+[params]
+dateFormat = "2006-01-02"
+defaultTheme = "auto"
+fingerprint = ""
+gitRepo = "https://github.com/dillonzq/LoveIt"
+images = [ "/logo.png" ]
+version = "0.2.X"
+
+  [params.analytics]
+  enable = false
+
+    [params.analytics.fathom]
+    id = ""
+    server = ""
+
+    [params.analytics.google]
+    anonymizeIP = true
+    id = ""
+
+  [params.cdn]
+  data = "jsdelivr.yml"
+
+  [params.compatibility]
+  objectFit = false
+  polyfill = false
+
+  [params.cookieconsent]
+  enable = false
+
+    [params.cookieconsent.content]
+    dismiss = ""
+    link = ""
+    message = ""
+
+  [params.footer]
+  author = true
+  copyright = true
+  custom = ""
+  enable = true
+  hugo = true
+  icp = ""
+  license = '<a rel="license external nofollow noopener noreffer" href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank">CC BY-NC 4.0</a>'
+  since = 2_019
+
+  [params.header]
+  desktopMode = "fixed"
+  mobileMode = "auto"
+
+    [params.header.title]
+    logo = ""
+    name = "CianCode"
+    post = ""
+    pre = "<i class='far fa-angle-down fa-fw'></i>"
+    typeit = false
+
+  [params.list]
+  dateFormat = "01-02"
+  paginate = 20
+  rss = 10
+
+  [params.page]
+  fontawesome = true
+  fraction = true
+  hiddenFromHomePage = false
+  hiddenFromSearch = false
+  lightgallery = false
+  linkToMarkdown = true
+  rssFullText = false
+  ruby = true
+  twemoji = false
+
+    [params.page.code]
+    copy = true
+    maxShownLines = 10
+
+    [params.page.comment]
+    enable = true
+
+      [params.page.comment.commento]
+      enable = false
+
+      [params.page.comment.disqus]
+      enable = false
+      shortname = ""
+
+      [params.page.comment.facebook]
+      appId = ""
+      enable = false
+      languageCode = ""
+      numPosts = 10
+      width = "100%"
+
+      [params.page.comment.gitalk]
+      clientId = ""
+      clientSecret = ""
+      enable = false
+      owner = ""
+      repo = ""
+
+      [params.page.comment.telegram]
+      color = ""
+      colorful = true
+      dislikes = false
+      enable = false
+      height = ""
+      limit = 5
+      outlined = false
+      siteID = ""
+
+      [params.page.comment.utterances]
+      darkTheme = "github-dark"
+      enable = false
+      issueTerm = "pathname"
+      label = ""
+      lightTheme = "github-light"
+      repo = ""
+
+      [params.page.comment.valine]
+      appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
+      appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
+      avatar = "mp"
+      emoji = ""
+      enable = true
+      enableQQ = false
+      highlight = true
+      lang = ""
+      meta = ""
+      pageSize = 10
+      placeholder = ""
+      recordIP = true
+      serverURLs = "https://leancloud.hugoloveit.com"
+      visitor = true
+
+    [params.page.library]
+    css = { }
+    js = { }
+
+    [params.page.mapbox]
+    accessToken = "pk.eyJ1IjoiZGlsbG9uenEiLCJhIjoiY2s2czd2M2x3MDA0NjNmcGxmcjVrZmc2cyJ9.aSjv2BNuZUfARvxRYjSVZQ"
+    darkStyle = "mapbox://styles/mapbox/dark-v10?optimize=true"
+    fullscreen = true
+    geolocate = true
+    lightStyle = "mapbox://styles/mapbox/light-v10?optimize=true"
+    navigation = true
+    scale = true
+
+    [params.page.math]
+    blockLeftDelimiter = ""
+    blockRightDelimiter = ""
+    copyTex = true
+    enable = false
+    inlineLeftDelimiter = ""
+    inlineRightDelimiter = ""
+    mhchem = true
+
+    [params.page.seo]
+    images = [ ]
+
+      [params.page.seo.publisher]
+      logoUrl = "/images/avatar.png"
+      name = "xxxx"
+
+    [params.page.share]
+    Baidu = false
+    Blogger = false
+    Buffer = false
+    Digg = false
+    Evernote = false
+    Facebook = true
+    Flipboard = false
+    HackerNews = true
+    Instapaper = false
+    Line = true
+    Linkedin = false
+    Mix = false
+    Myspace = false
+    Odnoklassniki = false
+    Pinterest = false
+    Pocket = false
+    Reddit = false
+    Renren = false
+    Skype = false
+    Stumbleupon = false
+    Trello = false
+    Tumblr = false
+    Twitter = true
+    VK = false
+    Weibo = true
+    Whatsapp = false
+    Xing = false
+    enable = true
+
+    [params.page.toc]
+    auto = true
+    enable = true
+    keepStatic = false
+
+  [params.section]
+  dateFormat = "01-02"
+  paginate = 20
+  rss = 10
+
+  [params.seo]
+  image = "/images/Apple-Devices-Preview.png"
+  thumbnailUrl = "/images/screenshot.png"
+
+  [params.typeit]
+  cursorChar = "|"
+  cursorSpeed = 1_000
+  duration = -1
+  speed = 100
+
+  [params.verification]
+  baidu = ""
+  bing = ""
+  google = ""
+  pinterest = ""
+  yandex = ""
+
+[privacy]
+googleAnalytics = { }
+
+  [privacy.twitter]
+  enableDNT = true
+
+  [privacy.youtube]
+  privacyEnhanced = true
+
+[sitemap]
+changefreq = "weekly"
+filename = "sitemap.xml"
+priority = 0.5
