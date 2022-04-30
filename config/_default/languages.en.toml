@@ -1,0 +1,24 @@
+languageCode = "en"
+languageName = "English"
+displayName = ":flag-ie:"
+isoCode = "en"
+weight = 1
+rtl = false
+
+# logo = "img/logo.jpg"
+description = "A powerful, lightweight theme for Hugo built with Tailwind CSS."
+copyright = "&copy; Cian McElhinney"
+
+dateFormat = "2 January 2006"
+
+title = "Cian Code"
+
+
+[author]
+name = "Cian McElhinney"
+image = "img/author.jpg"
+headline = "A generally awesome human"
+bio = "A little bit about me"
+links = [
+  { twitter = "https://twitter.com/username" }
+]
