@@ -11,20 +11,24 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Posts"
+  name = '<i class="fa fa-newspaper"></i> Posts'
   pageRef = "posts"
   weight = 10
 
-[[main]]
-  name = "Samples"
-  pageRef = "samples"
-  weight = 20
+# [[main]]
+#   name = "Demos"
+#   pageRef = "demos"
+#   weight = 20
   
 [[main]]
-  name = "GitHub"
+  name = '<i class="fa-brands fa-github"></i> GitHub'
   url = "https://github.com/cianmce"
   weight = 30
 
+[[main]]
+  name = '<i class="fa-brands fa-linkedin"></i> LinkedIn'
+  url = "https://github.com/cianmce"
+  weight = 40
 
 # -- Footer Menu --
 # The footer menu is displayed at the bottom of the page, just before

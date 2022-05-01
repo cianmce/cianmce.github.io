@@ -6,13 +6,11 @@ weight = 1
 rtl = false
 
 # logo = "img/logo.jpg"
-description = "A powerful, lightweight theme for Hugo built with Tailwind CSS."
+title = "Cian Code"
+description = "All Things Computer"
 copyright = "&copy; Cian McElhinney"
 
 dateFormat = "2 January 2006"
-
-title = "Cian Code"
-
 
 [author]
 name = "Cian McElhinney"
