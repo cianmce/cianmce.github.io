@@ -4,6 +4,8 @@ date: 2022-04-30
 lastmod: 2022-05-01
 draft: false
 description: "Tool for generating tables comparing currencies."
+summary: "Tool for generating tables comparing currencies."
+
 tags: ["currency", "travel"]
 ---
 
