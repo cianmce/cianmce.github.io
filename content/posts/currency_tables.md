@@ -1,19 +1,33 @@
 ---
-title: "Currency Tables $£€¥"
-date: 2022-04-30
-lastmod: 2022-05-01
+title: "Currency Tables ¥€$"
+date: 2016-09-04
 draft: false
 description: "Tool for generating tables comparing currencies."
 summary: "Tool for generating tables comparing currencies."
 
-tags: ["currency", "travel"]
+tags: ["currency", "travel", "demos"]
 ---
 
-[Currency Tables](https://github.com/cianmce/currency-tables) let’s you easily create tables with useful conversion amounts.
+<span class="preview">
+
+  ![Currency Tables example](img/currency_tables_selection.png)
+
+  Generate currency conversion tables
+
+</span>
 
 <!--more-->
 
 Planning to travel? Simply print out, screenshot or memorise milestone amounts making it easy to estimate conversions abroad.
 
-![A stylised photograph of a purple squid on a pink backdrop.](img/currency_tables.png "Photo by [Jippe Joosten](https://unsplash.com/@jippe_joosten?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/vibrant-purple?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText).")
+<a href="https://cianmce.github.io/currency-tables/" target="_blank">
+  <span class="flex justify-center text-2xl">
+    <p class="mb-1">
+      Live Demo
+    </p>
+  </span>
 
+  ![Currency Tables example](img/currency_tables.png)
+</a>
+
+Source: [{{< icon github >}} cianmce/currency-tables](https://github.com/cianmce/currency-tables)

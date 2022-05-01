@@ -9,10 +9,7 @@ cascade:
 ---
 
 {{< lead >}}
-Simple, yet powerful. Learn how to use Congo and its features.
+A collection of interesting things.
 {{< /lead >}}
-
-![A Random good dog](https://placedog.net/1000/500?random)
-
 
 ---
