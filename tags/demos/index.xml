@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>demos on Cian Code</title><link>https://cianmce.github.io/tags/demos/</link><description>Recent content in demos on Cian Code</description><generator>Hugo -- gohugo.io</generator><language>en</language><copyright>&amp;copy; Cian McElhinney</copyright><lastBuildDate>Sun, 04 Sep 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://cianmce.github.io/tags/demos/index.xml" rel="self" type="application/rss+xml"/><item><title>Currency Tables ¥€$</title><link>https://cianmce.github.io/posts/currency_tables/</link><pubDate>Sun, 04 Sep 2016 00:00:00 +0000</pubDate><guid>https://cianmce.github.io/posts/currency_tables/</guid><description>&lt;span class="preview">
+&lt;p>
+&lt;figure>
+&lt;img
+class="my-0 rounded-md"
+srcset="
+/img/currency_tables_selection_hu64c18edb824e54cb279b8481839938f6_30029_330x0_resize_box_3.png 330w,
+/img/currency_tables_selection_hu64c18edb824e54cb279b8481839938f6_30029_660x0_resize_box_3.png 660w,
+/img/currency_tables_selection_hu64c18edb824e54cb279b8481839938f6_30029_1024x0_resize_box_3.png 1024w,
+/img/currency_tables_selection_hu64c18edb824e54cb279b8481839938f6_30029_1320x0_resize_box_3.png 2x"
+src="https://cianmce.github.io/img/currency_tables_selection_hu64c18edb824e54cb279b8481839938f6_30029_660x0_resize_box_3.png"
+alt="Currency Tables example"
+/>
+&lt;/figure>
+&lt;/p>
+&lt;p>Generate currency conversion tables&lt;/p>
+&lt;/span></description></item></channel></rss>
