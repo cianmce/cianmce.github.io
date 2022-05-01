@@ -13,10 +13,10 @@ copyright = "&copy; Cian McElhinney"
 dateFormat = "2 January 2006"
 
 [author]
-name = "Cian McElhinney"
-image = "img/author.jpg"
-headline = "A generally awesome human"
-bio = "A little bit about me"
-links = [
-  { twitter = "https://twitter.com/username" }
-]
+  name = "Cian McElhinney"
+  image = "img/cian.png"
+  headline = "Software Engineer"
+  bio = "A little bit about me"
+  links = [
+    { twitter = "https://twitter.com/username" }
+  ]
