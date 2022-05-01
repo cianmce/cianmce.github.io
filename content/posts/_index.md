@@ -1,9 +1,9 @@
 ---
 title: "Posts"
-description: "Learn how to use Congo and its features."
+description: "My Posts"
 
 cascade:
-  showDate: false
+  showDate: true
   showAuthor: false
   invertPagination: true
 ---

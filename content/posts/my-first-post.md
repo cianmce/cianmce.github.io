@@ -5,7 +5,6 @@ lastmod: 2022-05-01
 draft: false
 description: "My test post."
 tags: ["sample", "post"]
-showDateUpdated: true
 ---
 
 test
