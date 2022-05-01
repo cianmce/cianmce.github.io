@@ -4,7 +4,6 @@ date: 2022-04-30
 lastmod: 2022-05-01
 draft: false
 description: "My test post."
-slug: "post1"
 tags: ["sample", "post"]
 showDateUpdated: true
 ---
