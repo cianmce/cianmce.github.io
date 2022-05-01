@@ -15,11 +15,11 @@
   pageRef = "posts"
   weight = 10
 
-# [[main]]
-#   name = "Demos"
-#   pageRef = "demos"
-#   weight = 20
-  
+[[main]]
+  name = '<i class="fa fa-tags"></i> Tags'
+  pageRef = "tags"
+  # url = "https://github.com/cianmce"
+  weight = 20
 [[main]]
   name = '<i class="fa-brands fa-github"></i> GitHub'
   url = "https://github.com/cianmce"
