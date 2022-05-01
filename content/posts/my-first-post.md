@@ -1,7 +1,13 @@
 ---
 title: "My First Post"
-date: 2022-04-30T15:36:52+01:00
+date: 2022-04-30
+lastmod: 2022-05-01
 draft: false
+description: "My test post."
+slug: "post1"
+tags: ["sample", "post"]
+showDateUpdated: true
 ---
 
 test
+<h1></h1>
