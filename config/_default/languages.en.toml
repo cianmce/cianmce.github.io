@@ -18,6 +18,6 @@ dateFormat = "2 January 2006"
   headline = "Senior Software Engineer"
   bio = "All Things Computer"
   links = [
-    { github = "https://github.com/cianmce" }
+    { github = "https://github.com/cianmce" },
     { linkedin = "https://ie.linkedin.com/in/cianmcelhinney" }
   ]
