@@ -19,5 +19,6 @@ dateFormat = "2 January 2006"
   bio = "All Things Computer"
   links = [
     { github = "https://github.com/cianmce" },
-    { linkedin = "https://ie.linkedin.com/in/cianmcelhinney" }
+    { linkedin = "https://ie.linkedin.com/in/cianmcelhinney" },
+    { keybase = "https://keybase.io/cianmce" }
   ]
