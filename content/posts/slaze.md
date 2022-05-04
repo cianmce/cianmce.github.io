@@ -13,7 +13,7 @@ tags: ["videogame", "opengl"]
 
   ![Slaze Gameplay](img/slaze_gameplay.png)
 
-  Slaze in a Survival horror single player game modeled on the story of Slender Man, a tall, thin, faceless man who follows you at a distance but is never seen moving.
+  Slaze in a Survival horror single player game modeled on the story of Slender Man, a tall, thin, faceless man who follows you at a distance but is never seen moving
 
 </span>
 
