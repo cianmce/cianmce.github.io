@@ -5,4 +5,3 @@
 ```sh
 hugo server
 ```
-
