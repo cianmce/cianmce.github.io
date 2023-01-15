@@ -1,2 +1,3 @@
-public/
+public/*
+!somefolder/.gitkeep
 resources/_gen
