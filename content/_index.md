@@ -18,10 +18,4 @@ I have completed 5 years in Trinity College Dublin Studying 2 years of general [
 
 Experience:
 Co-founder and Product Engineer with [Pushstartr](http://pushstartr.com/) working with Ruby on Rails, Python, Flask, Redis, MongoDB, Java, Android, JavaScript, MySQL and AWS.
-Senior Software Engineer at [Swrve](https://www.swrve.com/) working with Ruby on Rails, Java, Python, JavaScript, React, MySQL, Graphite, AWS and Jenkins.
-
-
-
-
-
-
+Senior Software Engineer with [Swrve](https://www.swrve.com/) working with Ruby on Rails, Java, Python, JavaScript, React, MySQL, Graphite, AWS and Jenkins.
