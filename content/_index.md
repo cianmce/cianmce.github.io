@@ -21,3 +21,4 @@ Co-founder and Product Engineer with [Pushstartr](http://pushstartr.com/) workin
 
 
 Senior Software Engineer with [Swrve](https://www.swrve.com/) working with Ruby on Rails, Java, Python, JavaScript, React, MySQL, Graphite, AWS and Jenkins.
+
